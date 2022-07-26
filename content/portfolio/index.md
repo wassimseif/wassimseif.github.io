@@ -12,7 +12,7 @@ toc:
   auto: false
 ---
 
-Below is the list of projects I worked on. I try to put each project with a [streamlit](https://streamlit.io) app.
+Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](streamlit.io) as a tool to demo the models i build. 
 
 # Twitter Sentiment Analysis [DEMO](https://google.com)
 
@@ -26,7 +26,7 @@ The approach I used is utilizing transfer learning to fine-tune an existing Tran
 - [Huggingface](https://huggingface.co/) for using the `pipeline` feature
 - [Tweepy](https://www.tweepy.org/) for fetching the tweets from the twitter.
 - [Streamlit](https://streamlit.io/) for building the demo app.
-## Demo 
+
 ---
 # Twitter Sentiment Analysis
 ## Description
