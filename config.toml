@@ -25,9 +25,10 @@ defaultTheme = "light"
       url = "/about/"
       # title will be shown when you hover on this menu link
       title = ""
+
   [[menu.main]]
-    weight = 1
-    pre = '<i class="fa-solid fa-newspaper"></i>'
+    weight = 2
+    pre = '<i class="fa-solid fa-pepper-hot"></i>'
     identifier = "Portfolio"
     # you can add extra information before the name (HTML format is supported), such as icons
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -36,18 +37,6 @@ defaultTheme = "light"
     url = "/portfolio/"
     # title will be shown when you hover on this menu link
     title = ""
-
-  # [[menu.main]]
-  #   weight = 2
-  #   pre = '<i class="fa-solid fa-pepper-hot"></i>'
-  #   identifier = "Portfolio"
-  #   # you can add extra information before the name (HTML format is supported), such as icons
-  #   # you can add extra information after the name (HTML format is supported), such as icons
-  #   post = ""
-  #   name = "Portfolio"
-  #   url = "/portfolio/"
-  #   # title will be shown when you hover on this menu link
-  #   title = ""
   # [[menu.main]]
   #   weight = 3
   #   pre = '<i class="fa-solid fa-candy-cane"></i>'
