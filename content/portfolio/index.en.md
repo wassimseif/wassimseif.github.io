@@ -12,7 +12,7 @@ toc:
   auto: false
 ---
 
-Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](streamlit.io) as a tool to demo the models i build. 
+Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](https://streamlit.io) as a tool to demo the models i build. 
 
 # Twitter Sentiment Analysis [DEMO](https://twitter-sentiment.portfolio.wassimseifeddine.com/)
 
