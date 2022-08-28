@@ -36,7 +36,7 @@ This work was done as part of a project with a self driving car company. The aim
 
 The model we used is a [MobileNetV2](https://arxiv.org/abs/1801.04381) pre-trained model on [ImageNet](https://www.image-net.org/) with SSDLite object detector. The model was trained with [Fp-32](https://en.wikipedia.org/wiki/Single-precision_floating-point_format) data format.
 
-We applied several [model compression](https://arxiv.org/abs/1710.09282) techniques to reduce the size of the model and monitor it's performance. Some of the tehcniqes we used are:
+We applied several [model compression](https://arxiv.org/abs/1710.09282) techniques to reduce the size of the model and monitor it's performance. Some of the techniques we used are:
 
 - [Quantization](https://arxiv.org/abs/2103.13630)
 - [Pruning](https://arxiv.org/abs/2101.09671)
