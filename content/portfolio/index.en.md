@@ -45,7 +45,7 @@ We applied several [model compression](https://arxiv.org/abs/1710.09282) techniq
 
 We got interesting results with the model. The model can detect objects in images with a high accuracy and speed down to [Int-8](https://www.ibm.com/docs/en/informix-servers/12.10?topic=types-int8) data format.
 
-**Disclaimer**: This work is not entirely my own. I was a part of a team that worked on it.
+**Disclaimer**: This work is not entirely my own. I was part of a team that worked on it.
 ## Tech Stack
 - [PyTorch](https://pytorch.org) for building the model.
 - [Tensorboard](https://www.tensorflow.org/tensorboard) for monitoring the model.
