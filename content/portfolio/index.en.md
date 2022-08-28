@@ -29,7 +29,7 @@ The approach I used is utilizing transfer learning to fine-tune an existing Tran
 
 ---
 
-# Quantized Neural network for object detection 
+# Quantized Neural Network for Object Detection 
 
 ## Description
 This work was done as part of a project with a self driving car company. The aim was to take a pre-trained model and try to run it **as fast** as possible and **as light** as possible to be used for real-time object detection
