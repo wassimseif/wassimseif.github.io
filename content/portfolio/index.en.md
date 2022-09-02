@@ -52,3 +52,28 @@ We got interesting results with the model. The model can reliably detect objects
 - [OpenCV](https://opencv.org) for image processing.
 
 ---
+
+
+# Legal case classification
+
+## Description
+This project was two folds, first we had to build a model that would classify a legal case based on the description entered into several categories. The aim was to provide a tool that will help lawyers to classify the cases faster and easier. Second, we had to extract the entities from the case description that were relevant to the classification. 
+
+Here's a small sketch of how the system should behave.
+
+![Image](/case_classification_sketch.png "Defamation Classification with element extraction")
+
+
+This project was extremely interesting as we faced several technical challenges that I never encountered before.
+Some of the challenges:
+
+- The data we got was very messy. It was a digitized version of PDF documents
+- Each case in our training data was several hundred words long which made it difficult that we used some NLP models.
+
+## Tech Stack
+- [Doc2Vec](https://radimrehurek.com/gensim/models/doc2vec.html) for building the baseline model.
+- [PyTorch](https://pytorch.org) for building the model.
+- [Huggingface](https://huggingface.co/) for using the text tools it provides
+- [Weights & Biases](https://wandb.ai) for monitoring the model training.
+- [Jupyter Notebooks](https://jupyter.org/) for showcasing the results of the EDA
+---
