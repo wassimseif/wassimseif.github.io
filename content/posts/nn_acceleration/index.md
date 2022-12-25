@@ -1,7 +1,7 @@
 ---
 title: "Neural network acceleration"
 date: 2022-12-25T17:55:13+02:00
-draft: true
+draft: false
 math: true
 ---
 
