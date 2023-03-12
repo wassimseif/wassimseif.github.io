@@ -19,7 +19,7 @@ Below is the list of projects I worked on. I believe that your work is as good a
 # Language Modeling for multiple languages
 
 ## Description
-Trained or finetuned a Large Language Model on a custom dataset for use in the bittensor network. I developed a pipeline to finetune the model on a custom dataset and then deploy it on the bittensor network. 
+I refined a Large Language Model by fine-tuning it on a customized dataset. Also I implemented a seamless pipeline for deployment on the Bittensor networ to achieve the lowest loss. One of the models is trained on the [The Mountain](https://docs.bittensor.com/nested/TheDataset.html) dataset with 20B parameters. The training was made possible with the help of DeepSpeed on an 8x A100 GPU machine.
 
 ## Tech Stack
 - GPT-(2.7,6B,20B) from [EleutherAI](https://www.eleuther.ai/)
