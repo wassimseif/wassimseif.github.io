@@ -18,7 +18,7 @@ defaultTheme = "light"
       weight = 1
       identifier = "about"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = '<i class="fa-solid fa-face-frown"></i>'
+      pre = '<i class="fa-solid fa-address-card"></i>'
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       name = "About"
