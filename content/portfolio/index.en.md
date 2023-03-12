@@ -14,6 +14,23 @@ toc:
 
 Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](https://streamlit.io) as a tool to demo the models i build. 
 
+
+
+# Language Modeling for multiple languages
+
+## Description
+Trained or finetuned a Large Language Model on a custom dataset for use in the bittensor network. I developed a pipeline to finetune the model on a custom dataset and then deploy it on the bittensor network. 
+
+## Tech Stack
+- GPT-(2.7,6B,20B) from [EleutherAI](https://www.eleuther.ai/)
+- [Huggingface](https://huggingface.co/) for finetuning feature
+- [The Mountain](https://docs.bittensor.com/nested/TheDataset.html) as a dataset
+- [Bittensor](https://bittensor.com/) for deployment
+
+---
+
+
+
 # Twitter Sentiment Analysis [DEMO](https://twitter-sentiment.portfolio.wassimseifeddine.com/)
 
 ## Description
