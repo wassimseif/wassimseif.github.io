@@ -109,3 +109,20 @@ Below is the list of conferences that I attended during my research and industry
 
 <i class="fa-solid fa-file-powerpoint"></i> **Presentation**: [Link](https://drive.google.com/file/d/1nw9qf4wBYQCJMmoIHLz1YnbaVBHHRn26/view?usp=sharing)
 </ul>
+
+## Slush 2023
+
+<ul>
+
+<i class="fa-regular fa-file-lines"></i>  **Description:** lush is a startup and tech event held annually in Helsinki, Finland. Slush facilitates meetings between the founders of startups and investors such as venture capitalists, accomplished with events such as matchmaking and pitching competitions. 
+
+<i class="fa-solid fa-link"></i>  **Link**: [Link](https://slush.org/)
+
+<i class="fa-solid fa-location-crosshairs"></i>  **Place**:  Helsinki, Finland
+
+<i class="fa-regular fa-calendar-days"></i> **Date**: November 2023
+
+<i class="fa-solid fa-person"></i>  **What I did**: Attended under Toptal
+
+
+</ul>
