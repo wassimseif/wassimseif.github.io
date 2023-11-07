@@ -108,6 +108,9 @@ Below is the list of conferences that I attended during my research and industry
 <i class="fa-solid fa-person"></i>  **What I did**: Presented a talk about introduction to machine learning from a non-technical point of view
 
 <i class="fa-solid fa-file-powerpoint"></i> **Presentation**: [Link](https://drive.google.com/file/d/1nw9qf4wBYQCJMmoIHLz1YnbaVBHHRn26/view?usp=sharing)
+
+<i class="fa-solid fa-video"></i> **Video Presentation**: [Watch here](https://drive.google.com/file/d/1Xc2IUslrSl22AnDfyONQdlkyT11TEu67/view?usp=sharing)
+
 </ul>
 
 ## Slush 2023
