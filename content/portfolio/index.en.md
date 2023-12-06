@@ -14,9 +14,12 @@ toc:
 
 Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](https://streamlit.io) as a tool to demo the models i build. 
 
+# Update
+
+# This is very outdated. For my most updated portfolio, please visit my Toptal Profile [here](https://www.toptal.com/resume/wassim-seifeddine)
 
 
-# Language Modeling for multiple languages
+##  Language Modeling for multiple languages
 
 ## Description
 I refined a Large Language Model by fine-tuning it on a customized dataset. Also I implemented a seamless pipeline for deployment on the Bittensor networ to achieve the lowest loss. One of the models is trained on the [The Mountain](https://docs.bittensor.com/nested/TheDataset.html) dataset with 20B parameters. The training was made possible with the help of DeepSpeed on an 8x A100 GPU machine.
