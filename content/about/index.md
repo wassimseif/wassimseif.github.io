@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2012-23-07T11:04:49+08:00
+date: 2012-07-23T11:04:49+08:00
 draft: false
 description: "About Me"
 images: ["/Apple-Devices-Preview.png"]
