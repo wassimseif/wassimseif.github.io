@@ -1,7 +1,7 @@
 ---
 title: "Installing BLAST on Macos and downloading the database"
 date: 2024-10-05T14:05:13+02:00
-draft: true
+draft: false
 math: true
 ---
 
