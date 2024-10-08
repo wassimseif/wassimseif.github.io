@@ -5,7 +5,7 @@ draft: false
 math: true
 ---
 
-BLAST (Basic Local Alignment Search Tool) is a widely tool for comparing nucleotide or protein sequences against databases. If you're working on macOS and need to use any of its tools, this guide will help you install BLAST, download necessary databases, and run BLAST searches _efficiently_.
+BLAST (Basic Local Alignment Search Tool) is a widely used tool for comparing nucleotide or protein sequences against databases. If you're working on macOS and need to use any of its tools, this guide will help you install BLAST, download necessary databases, and run BLAST searches _efficiently_.
 ## Installing 
 ### Manually
 
@@ -43,7 +43,7 @@ cd ncbi-blast-2.16.0+/bin
 ./blastn -version
 ```
 
-If everything is working you should see the BLAST version information.
+If everything is working correctly, you should see the BLAST version information.
 
 ```bash
 blastn: 2.16.0+
@@ -52,7 +52,7 @@ Package: blast 2.16.0, build Jun 25 2024 11:53:51
 
 4. **Making BLAST available anywhere**
 
-Right now if you want to use BLAST, you have to be in the `ncbi-blast-2.16.0+/bin` directory. To make it accessible anywhere, we have two solutions. Either you move the binaries into where your shell ( terminal ) searches for binaries, or you can tell it to look somewhere else (where BLAST is installed).
+Right now if you want to use BLAST, you have to be in the `ncbi-blast-2.16.0+/bin` directory. To make it accessible anywhere, there are two solutions. Either move the binaries into where your shell ( terminal ) searches for binaries, or tell it to look somewhere else (where BLAST is installed).
 I normally prefer the second optione because 
 
    1. It gives me more flexibility on where I can install and manage third party tools
@@ -68,7 +68,7 @@ export PATH="$HOME/third_party/blast/2.16.0/bin:$PATH"
 ```
 **Note**: This applies only to your current SHELL session, if you open a new terminal, you'll have to execute this command again to make BLAST accessbile for this session.
 
-To make it persistant across session, you'll have to add the command to `~/.bashrc` or `~/.zshrc`.
+To make it persistant across sessions, you'll have to add the command to `~/.bashrc` or `~/.zshrc`.
 
 
 
@@ -123,7 +123,7 @@ mkdir -p ~/blastdb
 
 3. **Download Databases Using `update_blastdb.pl`:**
 
-You can download the database manually from the link above the extract them. However, BLAST provides a script to automatically do it.
+You can download the database manually from the link above then extract them. However, BLAST provides a script to automatically do it.
 The script is called `update_blastdb.pl` and is included in the `ncbi-blast-2.16.0+/bin` directory. 
 The `update_blastdb.pl` script is included with BLAST. Since you made the full `bin` directory available in your `PATH`, you can also run this script from anywhere.
 
@@ -149,7 +149,7 @@ tar -zxvf nr.00.tar.gz
 **Note**: This file is 33GB in size before uncompressing, so make sure you have enough space on your mac.
 
 4. **Set the `BLASTDB` Environment Variable:**
-Like the terminal needs to know wher to search for binaries, BLAST needs to know where to search for databases. You can set the `BLASTDB` environment variable to the directory where you downloaded the databases.
+Like the terminal needs to know where to search for binaries, BLAST needs to know where to search for databases. You can set the `BLASTDB` environment variable to the directory where you downloaded the databases.
 
 ```bash
 export BLASTDB=~/blastdb

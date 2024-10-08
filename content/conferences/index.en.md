@@ -32,7 +32,7 @@ Below is the list of conferences that I attended during my research and industry
 
 <i class="fa-regular fa-calendar-days"></i> **Date**: December 2023
 
-<i class="fa-solid fa-person"></i>  **What I did**: One of the panelist talking about DNA/RNA seqeuencing technologies in AI and discussing about the etthical backgrounds of AI in Healthcare 
+<i class="fa-solid fa-person"></i>  **What I did**: One of the panelist talking about DNA/RNA seqeuencing technologies in AI and discussing the etthical implications of AI in Healthcare 
 
 
 </ul>
