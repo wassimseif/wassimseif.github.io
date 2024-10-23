@@ -1,5 +1,5 @@
 ---
-title: "[ARCHIVED] Using Tensorflow Gradient Descent to minimize functions"
+title: "[ARCHIVE] Using Tensorflow Gradient Descent to minimize functions"
 date:  2016-10-02T17:54:04+01:00
 draft: false
 math: true

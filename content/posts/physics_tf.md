@@ -1,5 +1,5 @@
 ---
-title: "[ARCHIVED] Learning High School Physics with Tensorflow"
+title: "[ARCHIVE] Learning High School Physics with Tensorflow"
 date: 2018-05-28T17:54:04+01:00
 draft: false
 ---

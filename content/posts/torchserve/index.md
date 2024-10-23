@@ -1,5 +1,5 @@
 ---
-title: "[ARCHIVED] Serving BERT Model with Pytorch using TorchServe"
+title: "[ARCHIVE] Serving BERT Model with Pytorch using TorchServe"
 date: 2020-04-22 23:56:39
 draft: false
 math: true
