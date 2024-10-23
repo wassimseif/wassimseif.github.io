@@ -1,5 +1,5 @@
 ---
-title: "Installing BLAST on Macos and downloading the database"
+title: "How to install BLAST on mac and download the database"
 date: 2024-04-24T14:05:13+02:00
 draft: false
 math: true
