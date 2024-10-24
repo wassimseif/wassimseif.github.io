@@ -4,7 +4,7 @@ date: 2018-05-28T17:54:04+01:00
 draft: false
 ---
 <head>
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
 
 </head>
 ## Introduction
@@ -63,7 +63,7 @@ Since the function is linear, then the curve will be a straight line.
 
 
 <p style="overflow-x:scroll;" id="dataset" style="width:100%;height:400px;"></p>
-<script src="https://cdn.plot.ly/plotly-latest.min.js">
+<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js">
   var graph = document.getElementById('dataset');
   var trace1 = {
     x: [  4.37820605, -13.13363508,  -2.77673978,   2.4888348 ,
@@ -120,7 +120,7 @@ Since the function is linear, then the curve will be a straight line.
     type: 'scatter'
   };
   Plotly.newPlot('dataset', [trace1]);
-</script>
+</script> -->
 
 
 ## Model
