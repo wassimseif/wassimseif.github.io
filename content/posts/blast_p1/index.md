@@ -1,6 +1,7 @@
 ---
 title: "How to install BLAST on mac and download the database"
 date: 2024-04-24T14:05:13+02:00
+excerpt: "A guide to installing BLAST on macOS, downloading databases, and running BLAST searches efficiently."
 draft: false
 math: true
 ---
