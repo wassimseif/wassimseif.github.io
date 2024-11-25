@@ -1,14 +1,14 @@
 ---
-title: "Pipeline Parallelism in Pytorch 2.5" # TODO:- Get new title before publishing
-date: 2024-10-23T14:07:13+02:00
+title: "Pytorch HSDP : Pipeline Parallelism"
+date: 2024-04-24T14:05:13+02:00
+excerpt: "A guide on how to implement model pipeline parallelism in PyTorch 2.5+."
 draft: true
 math: true
-author: "Wassim Seifeddine"
 ---
 
 ## 1. Introduction
 
-Pipeline parallelism is a technique used to train deep learning models by dividing the model into sequential stages and distributing these stages across multiple devices (such as GPUs). Each device is responsible for a specific portion of the model's layers. During training or inference, data flows through these stages in a pipeline fashion, much like an assembly line in a factory. While one device processes a batch of data, the next device can start processing the subsequent batch. This overlap in computation increases hardware utilization and accelerates the overall processing time.
+Suppose you want to train a model 
 
 ### Why is it Important in Deep Learning?
 

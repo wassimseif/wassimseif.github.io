@@ -12,11 +12,16 @@ toc:
   auto: false
 ---
 
-Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](https://streamlit.io) as a tool to demo the models i build. 
-
 # Update
 
-# This is very outdated. For my most updated portfolio, please visit my Toptal Profile [here](https://www.toptal.com/resume/wassim-seifeddine)
+This is very outdated. For my **most updated portfolio**, please visit my profile [here](https://www.toptal.com/resume/wassim-seifeddine)
+
+# Portfolio
+
+
+Below is the list of projects I worked on. I believe that your work is as good as you can show it, that's why I try to put each project in a demo-able format. For now I am using [streamlit](https://streamlit.io) as a tool to demo the models i build.
+
+
 
 
 ##  Language Modeling for multiple languages
@@ -49,7 +54,7 @@ The approach I used is utilizing transfer learning to fine-tune an existing Tran
 
 ---
 
-# Quantized Neural Network for Object Detection 
+# Quantized Neural Network for Object Detection
 
 ## Description
 This work was done as part of a project with a self driving car company. The aim was to take a pre-trained model and try to run it **as fast** as possible and **as light** as possible to be used for real-time object detection
@@ -77,7 +82,7 @@ We got interesting results with the model. The model can reliably detect objects
 # Legal case classification
 
 ## Description
-This project was two folds, first we had to build a model that would classify a legal case based on the description entered into several categories. The aim was to provide a tool that will help lawyers to classify the cases faster and easier. Second, we had to extract the entities from the case description that were relevant to the classification. 
+This project was two folds, first we had to build a model that would classify a legal case based on the description entered into several categories. The aim was to provide a tool that will help lawyers to classify the cases faster and easier. Second, we had to extract the entities from the case description that were relevant to the classification.
 
 Here's a small sketch of how the system should behave.
 
