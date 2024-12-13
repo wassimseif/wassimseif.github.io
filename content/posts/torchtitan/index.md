@@ -121,5 +121,3 @@ Also, checkout the Github [repo](https://github.com/pytorch/torchtitan), In the 
 <div style="border-left: 5px solid #fef9e7; background-color: #fef9e7; padding: 15px 20px; margin: 20px 0; font-size: 1em; font-weight: light; color: #333; border-radius: 8px; box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);">
   If you're interested in this topic or have any questions, feel free to reach out to me.
 </div>
-| 
-## 4. 
