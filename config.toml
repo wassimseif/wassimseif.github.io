@@ -67,7 +67,7 @@ weight = 6
 pre = '<i class="fa-solid fa-candy-cane"></i>'
 identifier = "resume"
 name = "Resume"
-url = "/wassim_seifeddine_cv.pdf"
+url = "/seifeddine_wassim_cv.pdf"
 
 
 # Markup related configuration in Hugo
