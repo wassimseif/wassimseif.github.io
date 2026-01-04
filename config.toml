@@ -18,7 +18,7 @@ link = "https://wassimseifeddine.com/"
 weight = 1
 identifier = "about"
 # you can add extra information before the name (HTML format is supported), such as icons
-pre = '<i class="fa-solid fa-address-card"></i>'
+# pre = '<i class="fa-solid fa-address-card"></i>'
 # you can add extra information after the name (HTML format is supported), such as icons
 post = ""
 name = "About"
@@ -28,7 +28,7 @@ title = ""
 
 [[menu.main]]
 weight = 2
-pre = '<i class="fa-solid fa-pepper-hot"></i>'
+# pre = '<i class="fa-solid fa-pepper-hot"></i>'
 identifier = "portfolio"
 # you can add extra information before the name (HTML format is supported), such as icons
 # you can add extra information after the name (HTML format is supported), such as icons
@@ -41,7 +41,7 @@ title = ""
 
 [[menu.main]]
 weight = 3
-pre = '<i class="fa-solid fa-candy-cane"></i>'
+# pre = '<i class="fa-solid fa-candy-cane"></i>'
 identifier = "Posts"
 # you can add extra information before the name (HTML format is supported), such as icons
 # you can add extra information after the name (HTML format is supported), such as icons
@@ -52,19 +52,19 @@ url = "/posts/"
 title = ""
 [[menu.main]]
 weight = 4
-pre = '<i class="fa-solid fa-handshake"></i>'
+# pre = '<i class="fa-solid fa-handshake"></i>'
 identifier = "conferences"
 name = "Conferences"
 url = "/conferences/"
 [[menu.main]]
 weight = 5
-pre = '<i class="fa-solid fa-magnifying-glass"></i>'
+# pre = '<i class="fa-solid fa-magnifying-glass"></i>'
 identifier = "publications"
 name = "Publications"
 url = "https://scholar.google.com/citations?user=x6EK09kAAAAJ&hl=en"
 [[menu.main]]
 weight = 6
-pre = '<i class="fa-solid fa-candy-cane"></i>'
+# pre = '<i class="fa-solid fa-candy-cane"></i>'
 identifier = "resume"
 name = "Resume"
 url = "/seifeddine_wassim_cv.pdf"
