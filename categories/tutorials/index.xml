@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on Wassim Seifeddine</title><link>https://wassimseifeddine.com/categories/tutorials/</link><description>Recent content in Tutorials on Wassim Seifeddine</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 24 Apr 2024 14:05:13 +0200</lastBuildDate><atom:link href="https://wassimseifeddine.com/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>How to install BLAST on mac and download the database</title><link>https://wassimseifeddine.com/posts/blast_p1/</link><pubDate>Wed, 24 Apr 2024 14:05:13 +0200</pubDate><guid>https://wassimseifeddine.com/posts/blast_p1/</guid><description>&lt;p&gt;BLAST (Basic Local Alignment Search Tool) is a widely used tool for comparing nucleotide or protein sequences against databases. If you&amp;rsquo;re working on macOS and need to use any of its tools, this guide will help you install BLAST, download necessary databases, and run BLAST searches &lt;em&gt;efficiently&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id="installing"&gt;Installing&lt;/h2&gt;
+&lt;h3 id="manually"&gt;Manually&lt;/h3&gt;
+&lt;p&gt;Installing BLAST manually gives you control over the installation process and allows you to install the latest version directly from NCBI.&lt;/p&gt;</description></item><item><title>[ARCHIVE] Using Tensorflow Gradient Descent to minimize functions</title><link>https://wassimseifeddine.com/posts/sgd/</link><pubDate>Sun, 02 Oct 2016 17:54:04 +0100</pubDate><guid>https://wassimseifeddine.com/posts/sgd/</guid><description>&lt;p&gt;You probably heard the hype around Gradient Descent &amp;amp; how it&amp;rsquo;s used to optimize &lt;em&gt;Deep Learning Models&lt;/em&gt;. But you may never knew that it can be used to minimize &lt;strong&gt;ANY&lt;/strong&gt; function you know.&lt;/p&gt;
+&lt;p&gt;In this blog post we&amp;rsquo;re going to see how to use Gradient Descent to optimize a simple quadratic function &lt;!-- more --&gt;&lt;/p&gt;
+&lt;p&gt;we all know from highschool.&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;p&gt;$ax^2 + bx + c$&lt;/p&gt;
+&lt;/div&gt;
+with
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;40&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;400&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;we get the following formula
+&lt;br&gt;&lt;/p&gt;</description></item></channel></rss>
