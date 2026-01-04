@@ -14,3 +14,4 @@ hugo.linux
 /.hugo_build.lock
 .DS_Store
 content/posts/drafts/*
+.claude

@@ -284,8 +284,8 @@ paginate = 6
 # 主页的社交信息设置
 [params.social]
 GitHub = "wassimseif"
-Linkedin = "wassseif"
-Twitter = "https://twitter.com/WassSeif"
+Linkedin = "wseif"
+Twitter = ""
 Instagram = ""
 Facebook = ""
 Telegram = ""
