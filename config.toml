@@ -7,6 +7,18 @@ theme = "LoveIt"
 # Author config
 staticDir = ['static']
 defaultTheme = "light"
+
+# Enable taxonomies for tags and categories
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+# Output formats (enables RSS feed)
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
 [author]
 name = "Wassim Seifeddine"
 email = "wassim@wassimseifeddine.com"
@@ -26,17 +38,17 @@ url = "/about/"
 # title will be shown when you hover on this menu link
 title = ""
 
-[[menu.main]]
-weight = 2
-# pre = '<i class="fa-solid fa-pepper-hot"></i>'
-identifier = "portfolio"
-# you can add extra information before the name (HTML format is supported), such as icons
-# you can add extra information after the name (HTML format is supported), such as icons
-post = ""
-name = "Portfolio"
-url = "/portfolio/"
-# title will be shown when you hover on this menu link
-title = ""
+# [[menu.main]]
+# weight = 2
+# # pre = '<i class="fa-solid fa-pepper-hot"></i>'
+# identifier = "portfolio"
+# # you can add extra information before the name (HTML format is supported), such as icons
+# # you can add extra information after the name (HTML format is supported), such as icons
+# post = ""
+# name = "Portfolio"
+# url = "/portfolio/"
+# # title will be shown when you hover on this menu link
+# title = ""
 
 
 [[menu.main]]
@@ -50,12 +62,13 @@ name = "Posts"
 url = "/posts/"
 # title will be shown when you hover on this menu link
 title = ""
-[[menu.main]]
-weight = 4
-# pre = '<i class="fa-solid fa-handshake"></i>'
-identifier = "conferences"
-name = "Conferences"
-url = "/conferences/"
+
+# [[menu.main]]
+# weight = 4
+# # pre = '<i class="fa-solid fa-handshake"></i>'
+# identifier = "conferences"
+# name = "Conferences"
+# url = "/conferences/"
 [[menu.main]]
 weight = 5
 # pre = '<i class="fa-solid fa-magnifying-glass"></i>'
@@ -105,10 +118,26 @@ dateFormat = "2006-01-02"
 title = "Wassim Seifeddine"
 # website description for RSS, SEO, Open Graph and Twitter Cards
 # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-description = "Talking about Machine learning, mostly computational biology, bio foundation models and large scale training"
+description = "Wassim Seifeddine's blog about Machine Learning, Computational Biology, Bio Foundation Models, Large Scale Training, and Distributed Systems. Expert insights on LLMs, PyTorch, and AI research."
+# website keywords for SEO
+keywords = [
+  "Machine Learning",
+  "Deep Learning",
+  "Computational Biology",
+  "Foundation Models",
+  "LLMs",
+  "Large Scale Training",
+  "Distributed Training",
+  "PyTorch",
+  "AI Research",
+  "Bioinformatics",
+  "Transformers",
+  "FSDP",
+  "Model Parallelism",
+]
 # website images for Open Graph and Twitter Cards
 # 网站图片, 用于 Open Graph 和 Twitter Cards
-images = []
+images = ["/profile.jpeg"]
 
 # Header config
 # 页面头部导航栏配置
@@ -215,7 +244,7 @@ tileColor = "#da532c"
 # Search config
 # 搜索配置
 [params.search]
-enable = false
+enable = true
 # type of search engine ["lunr", "algolia"]
 # 搜索引擎的类型 ["lunr", "algolia"]
 type = "lunr"
@@ -600,12 +629,12 @@ darkTheme = "dark"
 [params.page.seo]
 # image URL
 # 图片 URL
-images = []
+images = ["/profile.jpeg"]
 # Publisher info
 # 出版者信息
 [params.page.seo.publisher]
-name = ""
-logoUrl = ""
+name = "Wassim Seifeddine"
+logoUrl = "/profile.jpeg"
 
 # TypeIt config
 # TypeIt 配置
@@ -637,10 +666,10 @@ baidu = ""
 [params.seo]
 # image URL
 # 图片 URL
-image = ""
+image = "/profile.jpeg"
 # thumbnail URL
 # 缩略图 URL
-thumbnailUrl = ""
+thumbnailUrl = "/profile.jpeg"
 
 # Analytics config
 # 网站分析配置

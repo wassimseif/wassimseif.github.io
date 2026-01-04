@@ -2,8 +2,11 @@
 title: "Torchtitan: A PyTorch Library for Parallelism Techniques explained"
 date: 2024-12-13T14:05:13+02:00
 excerpt: "An overview of TorchTitan, a PyTorch library on Github that simplifies the implementation of parallelism techniques to train large models (LLMs) on hundreds of GPUs."
+description: "Comprehensive overview of TorchTitan, a PyTorch library that simplifies implementing parallelism techniques for training large language models on hundreds of GPUs."
 draft: false
 math: true
+categories: ["Deep Learning", "Distributed Training"]
+tags: ["PyTorch", "TorchTitan", "Distributed Training", "Model Parallelism", "FSDP", "Pipeline Parallelism", "Tensor Parallelism", "LLMs"]
 ---
 
 Torchtitan is an excellent project to learn how to implement distributed training techniques for training massive language models on **hundreds** of GPUs. I’ve been using it for a few months, and now that the [paper](https://arxiv.org/abs/2410.06511) is out, I thought it’d be a good idea to share a few posts about how to use it, what works and what doesn’t, what I learned while implementing these ideas in my own project.

@@ -1,8 +1,11 @@
 ---
 title: "[ARCHIVE] Using Tensorflow Gradient Descent to minimize functions"
 date:  2016-10-02T17:54:04+01:00
+description: "Tutorial on using TensorFlow's gradient descent optimizer to minimize mathematical functions, demonstrating fundamental ML optimization concepts."
 draft: false
 math: true
+categories: ["Deep Learning", "Tutorials"]
+tags: ["TensorFlow"]
 ---
 
 You probably heard the hype around Gradient Descent & how it's used to optimize *Deep Learning Models*. But you may never knew that it can be used to minimize **ANY** function you know.

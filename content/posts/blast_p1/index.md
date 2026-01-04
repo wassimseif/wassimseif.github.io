@@ -2,8 +2,11 @@
 title: "How to install BLAST on mac and download the database"
 date: 2024-04-24T14:05:13+02:00
 excerpt: "A guide to installing BLAST on macOS, downloading databases, and running BLAST searches efficiently."
+description: "Step-by-step guide to installing BLAST on macOS, downloading sequence databases, and running efficient sequence alignment searches."
 draft: false
 math: true
+categories: ["Bioinformatics", "Tutorials"]
+tags: ["BLAST", "Bioinformatics", "Computational Biology", "Sequence Analysis"]
 ---
 
 BLAST (Basic Local Alignment Search Tool) is a widely used tool for comparing nucleotide or protein sequences against databases. If you're working on macOS and need to use any of its tools, this guide will help you install BLAST, download necessary databases, and run BLAST searches _efficiently_.

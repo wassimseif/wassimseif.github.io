@@ -1,8 +1,11 @@
 ---
 title: "[ARCHIVE] Serving BERT Model with Pytorch using TorchServe"
 date: 2020-04-22 23:56:39
+description: "Guide to serving BERT models in production using PyTorch TorchServe, covering model archiving and deployment setup."
 draft: false
 math: true
+categories: ["MLOps"]
+tags: ["TorchServe", "PyTorch", "Model Serving", "Production ML", "Deployment"]
 ---
 
 ## Finally

@@ -3,8 +3,11 @@ title: "My thoughts on NeurIPS 2025"
 date: 2025-12-08T19:05:13+02:00
 author: "Wassim"
 excerpt: "My thoughts on NeurIPS 2025"
+description: "Personal reflections on attending NeurIPS 2025, including insights on mechanistic interpretability and the state of AI research community."
 draft: false
 math: true
+categories: ["AI Research"]
+tags: ["Mechanistic Interpretability"]
 ---
 
 Coming back from NeurIPS 2025, I thought I'd write some of my thoughts about the conference and the current state of AI research.

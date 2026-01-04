@@ -1,8 +1,11 @@
 ---
 title: "Neural network acceleration"
 date: 2022-12-25T17:55:13+02:00
+description: "Exploration of neural network acceleration techniques including quantization, pruning, and other methods to reduce model size and improve performance."
 draft: false
 math: true
+categories: ["Deep Learning"]
+tags: ["Quantization", "Pruning"]
 ---
 
 ## Why accelerate

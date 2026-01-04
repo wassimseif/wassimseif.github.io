@@ -3,8 +3,11 @@ title: "On Apple intelligence, LLM limitations and the next AI winter"
 date: 2025-04-06T19:05:13+02:00
 author: "Wassim"
 excerpt: "My thoughts on the reason behind the delays of Apple Intelligence"
+description: "Analysis of Apple Intelligence delays and reflections on current AI capabilities, LLM limitations, and the potential for another AI winter."
 draft: false
 math: true
+categories: ["AI Research"]
+tags: ["LLMs", "AI Winter", "Transformers", "AGI", "AI Limitations", "Reasoning Models"]
 ---
 
 Apple intelligence is a project that has been in the works for a while now, and it has been rumored to be a major feature in iOS 18 and the new iPhone 16. However, the project has faced several delays, and it seems that Apple is struggling to get it right. In this post, I will share my thoughts on the reasons behind these delays and what they mean for the future of Apple intelligence and AI.
