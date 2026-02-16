@@ -1,7 +1,7 @@
 ---
-title: "Torchtitan: A PyTorch Library for Parallelism Techniques explained"
+title: "Torchtitan: A PyTorch Library for Parallelism Techniques Explained"
 date: 2024-12-13T14:05:13+02:00
-excerpt: "An overview of TorchTitan, a PyTorch library on Github that simplifies the implementation of parallelism techniques to train large models (LLMs) on hundreds of GPUs."
+excerpt: "An overview of TorchTitan, a PyTorch library on Github that simplifies the implementation of parallelism techniques to train large language models (LLMs) on hundreds of GPUs."
 description: "Comprehensive overview of TorchTitan, a PyTorch library that simplifies implementing parallelism techniques for training large language models on hundreds of GPUs."
 draft: false
 math: true
@@ -9,19 +9,19 @@ categories: ["Deep Learning", "Distributed Training"]
 tags: ["PyTorch", "TorchTitan", "Distributed Training", "Model Parallelism", "FSDP", "Pipeline Parallelism", "Tensor Parallelism", "LLMs"]
 ---
 
-Torchtitan is an excellent project to learn how to implement distributed training techniques for training massive language models on **hundreds** of GPUs. I’ve been using it for a few months, and now that the [paper](https://arxiv.org/abs/2410.06511) is out, I thought it’d be a good idea to share a few posts about how to use it, what works and what doesn’t, what I learned while implementing these ideas in my own project.
+***Torchtitan*** is an excellent project to learn how to implement distributed training techniques for training massive language models on **hundreds** of GPUs. I’ve been using it for a few months, and now that the [paper](https://arxiv.org/abs/2410.06511) is out, I thought it’d be a good idea to share a few posts about how to use it, what works and what doesn’t, and what I learned while implementing these ideas in my own project.
 
 ---
 
 
-This post will be an overview of the distributed training techniques implemented in Torchtitan and why they are important.
+This post will be an overview of the distributed training techniques implemented in ***Torchtitan*** and why they are important.
 In the next couple of posts, I will be writing about my experience implementing each technique in my own project and what I learned from it and how much it actually helped.
 ## 1. Introduction
 
 
-Torchtitan is a project from pytorch's team, it's their attempt to consolidate all the parallelism and distributed training techniques available in Pytorch into a single _framework_ that can be used to train large models on hundreds of GPUs and they did an **excellent** job at it. 
+***Torchtitan*** is a project from pytorch's team; it's their attempt to consolidate all the parallelism and distributed training techniques available in Pytorch into a single _framework_ that can be used to train large models on hundreds of GPUs and, spoiler alert, they did an **excellent** job at it. 
 
-The techniques implemented in Torchtitan are modular, easy to understand and use, and they are all built on top of mostly vanilla Pytorch.
+The techniques implemented in ***Torchtitan*** are modular, easy to understand and use, and they are all built mostly on top of vanilla Pytorch.
 
 I use it more as a learning tool, to understand how to implement parallelism techniques in Pytorch, and to see how the Pytorch team is thinking about scaling deep learning models.
 
@@ -57,7 +57,7 @@ This design makes it easier to experiment without too much code refactoring.
 This is the simplest technique. It initializes the model on an _empty_ device, so the weights aren’t materialized until you apply the full sharding strategy. Saves a lot of time and memory headaches.
 
 ### Float8 Training
-I haven’t tested this yet because I don’t have access to H100s. They use the [torchao implementation](https://github.com/pytorch/ao/tree/main/torchao/float8). The claim is that this will give you a huge speedup in training time (on the correct hardware) up to 50% in some cases. I will learn about this in the future and write a post about it when i test it.
+I haven’t tested this yet because I don’t have access to H100s. They use the [torchao implementation](https://github.com/pytorch/ao/tree/main/torchao/float8). The claim is that this will give you a huge speedup in training time (on the correct hardware) up to 50% in some cases. I will learn about this in the future and write a post about it once I test it.
 
 <figure>
   <img src="float8_results.png" alt="Float8 results" width="500" height="300">
@@ -67,7 +67,7 @@ I haven’t tested this yet because I don’t have access to H100s. They use the
 <br>
 
 ### Pipeline Parallelism
-This is the first step the "sharding" actualy happens. They divide the model into computation stages, each stage is sent to a device along with the required weights. The stages can also further split vertically ( more pipeline parallelism) or horizontally (tensor parallelism). 
+This is the first step in which "*sharding*" actually happens. They divide the model into computation stages, each stage is sent to a device along with the required weights. The stages can also further split vertically ( more pipeline parallelism) or horizontally (tensor parallelism). 
 
 <br>
 
@@ -82,27 +82,26 @@ They also use Asynchronous Tensor Parallel to further improve the GPU utilizatio
 ### FSDP2
 
 They have improved on FSDP1 by improving the [FlatParamter](https://pytorch.org/docs/stable/fsdp.html) and replacing 
-it by a new [implementation](https://pytorch.org/docs/stable/distributed.tensor.html) called DTensor (Distributed Tensor). This new data type also used in Tensor Parallelism.
+it by a new [implementation](https://pytorch.org/docs/stable/distributed.tensor.html) called DTensor (Distributed Tensor). This new data type is also used in Tensor Parallelism.
 They have around 7% improvement over FSDP1 which is a nice free improvement to have.
 
-They use FSDP in 2 cases :    
+They use FSDP in 2 cases:    
 - 1D parallelism and CPU offloading.
 - Shard on node level if used with other parallelism techniques. 
 
 
 ### Regional Compilation
-Instead of rely on Pytorch's Compiler [docs](https://pytorch.org/docs/stable/torch.compiler.html) to compile the 
-whole model and hope that it gets it optimized. They compile only specific blocks (TransformerBlock) where the attention is which gives them a simpler graph
-and since they're compiling the same structe, they only have to compile it once and save a lot of compilation time.
+Instead of relying on Pytorch's Compiler [docs](https://pytorch.org/docs/stable/torch.compiler.html) to compile the 
+whole model and hope that it gets optimized, they compile only specific blocks (TransformerBlock) where the *attention* gives them a simpler graph. Since they're compiling the same structures, they only have to compile it **once**; thus, saving plenty of compilation time.
 
 ### Flight Recorder
 Comes very handy when you are debugging what nccl is doing.
 
 ### Fault Tolerance Training
-This is a very interesting feature, it allows your training loop to continue even if. I still have to test it.
+This is a very interesting feature, it allows your training loop to continue even if some of the GPUs fail during training. I still have to test it.
 
 ### Wandb Integration
-Although tensorboard is the default, they [finally](https://github.com/pytorch/torchtitan/pull/699) have some wandb integration
+Although tensorboard is the default, they [finally](https://github.com/pytorch/torchtitan/pull/699) have some wandb integration.
 
 ### Other Features
 - Asynchronous Tensor Parallel
@@ -115,9 +114,9 @@ Most of these features are controlled by the `ParallelDims` class implemented [h
 ## 3. Next Steps
 
 
-If you are interested in learning more about Torchtitan, I would recommend reading the [paper](https://arxiv.org/abs/2410.06511) it's quite detailed and it explains the techniques implemented in the library in detail.
+If you are interested in learning more about ***Torchtitan***, I would recommend reading the [paper](https://arxiv.org/abs/2410.06511). It explains, in detail, the techniques implemented in the library.
 
-Also, checkout the Github [repo](https://github.com/pytorch/torchtitan), In the supplementary materials of the paper you'll find code sections for a technique implemented so you can use this to understand the repository better.
+Also, checkout the Github [repo](https://github.com/pytorch/torchtitan). In the supplementary materials of the paper you'll find code sections for a technique implemented so you can use this to understand the repository better.
 
 
 
