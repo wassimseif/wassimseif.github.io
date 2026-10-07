@@ -30,6 +30,9 @@ In a couple of years, people who still know how to write proper code will be *ve
 
 They are **excellent tools for function approximation and pattern recognition**. They don't *think*. They don't *reason*. They don't *understand*.
 
+And no, coding was not solved with GPT models, it was not solved 3 years ago, it was not solved 1 year ago, it was not solved 6 months ago, it will not be solved in 6 months, not in 1 year and not even in 5. If coding was just about writing code we'd have sweatshops for writing code before LLMs and not developers getting paid 6-8 figures to do it. **Use your brain and stop listening to people who hype LLMs BECAUSE THEY ARE MAKING MONEY OFF OF IT.**
+
 ## So use them, but use them right
 
 LLMs are useful, just not in the way tech bros and token sellers portray them. Make use of them, and stop following the hype blindly.
+
